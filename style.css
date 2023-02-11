@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.main{
+    background-color: #d4c81a;
+    padding: 50px;;
+}
+#answer{
+    background-color: #18b48d;
+
+}
+input,select{
+    border: 2px solid #c71a14e7;
+    padding:10px;
+
+}
+label{
+    font-weight: bold;
+}
+.head,footer{
+    background-color: #772870;
+    color:antiquewhite;
+    padding-left:40px;
+    padding-right:40px;
+    align-items: center;
+    margin:10px;
+}
+.head{
+    display:inline-block;
+
+}

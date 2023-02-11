@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            Conversion of units
+        </title>
+
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+    <center><div class="head"><h1>Temperature Converter</h1></div></center>
+    <form  name="form">
+    <div style="display:flex;" class="main">
+
+        <div style="flex:1;margin-right:10px;">
+        <label >Enter the  value</label>
+        <br>
+        <input type="text" name="temp" id="val" placeholder="Enter here"/>
+        <div type="text" id="error" style="color: #aa336a;"></div> 
+        </div>
+        <div style="flex:2;">
+        <div >
+            <label>Units</label>
+            <br>
+        <select name="from" placeholder="units" >
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        </div>
+        <br>
+        <br>
+        <div >
+            <label>Convert To:</label>
+            <br>
+        <select name="to" placeholder="units" >
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        </div>
+        </div>
+    </div>
+</form>
+
+    <br>
+
+        <input type="submit" value="Submit" onCLick="Convert()" style="background-color:#5c3808; color:antiquewhite;"/>
+        <br>
+        <br>
+        <label >Result: </label>&nbsp;&nbsp;&nbsp;<label id="answer" style="color:green;"></label>
+
+        <center>
+    </center>
+        <script type="text/javascript" src="script.js"> </script>
+
+    </body>
+</html>
